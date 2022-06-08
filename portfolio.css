@@ -1,0 +1,330 @@
+
+/* About Me start*/
+
+#about{
+  margin:0;
+  padding:0;
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("assets/images/office.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  font-family: adobe-caslon-w01-smbd,adobe-caslon-w08-smbd,serif;
+  height:100vh;
+}
+
+#aboutme{
+  color: rgba(13, 237, 196, 0.68);
+  font-size: 3rem; 
+  border-radius: 50%; 
+} 
+
+.info{
+  text-align: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+#pic1{
+  padding: 0 3rem 0 3rem;
+}
+
+#pic {
+  margin:0;
+  padding:0;
+  height: 100vh;
+  border: 0.3rem solid white; 
+    border-radius:50%;
+}
+
+/* About Me end */
+
+
+/* skills start */
+#skills{
+        background: linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7)), url("assets/images/skills.jpg");
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: 0.3rem solid #808080;
+}
+/* skills end */
+
+
+/* footer start */
+#footer{
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.9));
+}
+/* footer end */
+
+
+/* Resume start */
+#resume{
+    border: 0.3rem solid #808080;
+}
+.resume .resume-title {
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin-top: 1.3rem;
+    margin-bottom: 1.3rem;
+    color: #222222;
+  }
+  .resume .resume-item {
+    padding: 0 0 1.25rem 1.25rem;
+    margin-top: -0.13rem;
+    border-left: 0.13rem solid #34b7a7;
+    position: relative;
+  }
+  .resume .resume-item h4 {
+    line-height: 1.13rem;
+    font-size: 1.13rem;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #1d685f;
+    margin-bottom: 0.63rem;
+  }
+  .resume .resume-item h5 {
+    font-size: 1rem;
+    background: #effbf9;
+    padding: 0.3rem 1rem;
+    display: inline-block;
+    font-weight: 600;
+    margin-bottom: 0.63rem;
+    color: #34b7a7;
+  }
+  .resume .resume-item ul {
+    padding-left: 1.25rem;
+  }
+  .resume .resume-item ul li {
+    padding-bottom: 0.63rem;
+  }
+  .resume .resume-item:last-child {
+    padding-bottom: 0;
+  }
+  .resume .resume-item::before {
+    content: "";
+    position: absolute;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 3.13rem;
+    left: -0.6rem;
+    top: 0;
+    background: #fff;
+    border: 0.13rem solid #34b7a7;
+  }
+
+  /* Resume end */
+
+  #scholarship{
+      border: 0.2rem solid #808080;
+      border-radius: 50%;
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("assets/images/scholarship.jpg");
+      background-position: 50% 50%;
+      background-repeat: no-repeat;
+      background-size: contain;
+  }
+
+
+  /* projects start */
+
+  /*--------------------------------------------------------------
+# Portfolio
+--------------------------------------------------------------*/
+.portfolio{
+  border: 0.3rem solid #808080;
+}
+.portfolio .portfolio-item {
+  margin-bottom: 1.9rem;
+}
+.portfolio #portfolio-flters {
+  padding: 0;
+  margin: 0 auto 1.25rem auto;
+  list-style: none;
+  text-align: center;
+}
+.portfolio #portfolio-flters li {
+  cursor: pointer;
+  display: inline-block;
+  padding: 0.5rem 1rem 0.63rem 1rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+  line-height: 1;
+  text-transform: uppercase;
+  color: #444444;
+  margin-bottom: 0.3rem;
+  transition: all 0.3s ease-in-out;
+  border-radius: 3.2rem;
+}
+.portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
+  color: #fff;
+  background: #34b7a7;
+}
+.portfolio #portfolio-flters li:last-child {
+  margin-right: 0;
+}
+.portfolio .portfolio-wrap {
+  transition: 0.3s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  background: rgba(34, 34, 34, 0.6);
+}
+.portfolio .portfolio-wrap::before {
+  content: "";
+  background: rgba(34, 34, 34, 0.6);
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  transition: all ease-in-out 0.3s;
+  z-index: 2;
+  opacity: 0;
+}
+.portfolio .portfolio-wrap img {
+  transition: all ease-in-out 0.3s;
+}
+.portfolio .portfolio-wrap .portfolio-info {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 3;
+  transition: all ease-in-out 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 1.25rem;
+}
+.portfolio .portfolio-wrap .portfolio-info h4 {
+  font-size: 1.25rem;
+  color: #fff;
+  font-weight: 600;
+}
+.portfolio .portfolio-wrap .portfolio-info p {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 1rem;
+  text-transform: uppercase;
+  padding: 0;
+  margin: 0;
+  font-style: italic;
+}
+.portfolio .portfolio-wrap .portfolio-links {
+  text-align: center;
+  z-index: 4;
+}
+.portfolio .portfolio-wrap .portfolio-links a {
+  color: #fff;
+  margin: 0 0.3rem 0 0;
+  font-size: 1.8rem;
+  display: inline-block;
+  transition: 0.3s;
+}
+.portfolio .portfolio-wrap .portfolio-links a:hover {
+  color: #78d9cd;
+}
+.portfolio .portfolio-wrap:hover::before {
+  opacity: 1;
+}
+.portfolio .portfolio-wrap:hover img {
+  transform: scale(1.2);
+}
+.portfolio .portfolio-wrap:hover .portfolio-info {
+  opacity: 1;
+}
+
+/*--------------------------------------------------------------
+# Portfolio Details
+--------------------------------------------------------------*/
+.portfolio-details {
+  padding-top: 0;
+}
+.portfolio-details .portfolio-details-slider img {
+  width: 100%;
+}
+.portfolio-details .portfolio-details-slider .swiper-pagination {
+  margin-top: 1.3rem;
+  position: relative;
+}
+.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
+  width: 0.8rem;
+  height: 0.8rem;
+  background-color: #fff;
+  opacity: 1;
+  border: 0.06rem solid #34b7a7;
+}
+.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #34b7a7;
+}
+.portfolio-details .portfolio-info {
+  padding: 1.9rem;
+  box-shadow: 0 0 1.9rem rgba(34, 34, 34, 0.08);
+}
+.portfolio-details .portfolio-info h3 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-bottom: 1.25rem;
+  padding-bottom: 1.25rem;
+  border-bottom: 0.06rem solid #eee;
+}
+.portfolio-details .portfolio-info ul {
+  list-style: none;
+  padding: 0;
+  font-size: 1rem;
+}
+.portfolio-details .portfolio-info ul li + li {
+  margin-top: 0.63rem;
+}
+.portfolio-details .portfolio-description {
+  padding-top: 1.9rem;
+}
+.portfolio-details .portfolio-description h2 {
+  font-size: 1.63rem;
+  font-weight: 700;
+  margin-bottom: 1.25rem;
+}
+.portfolio-details .portfolio-description p {
+  padding: 0;
+}
+
+/* projects end */
+
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+  html{
+    font-size: 50%;
+  }
+}
+
+/* Media Query for low resolution  Tablets, Ipads */ 
+@media (min-width: 480px) and (max-width: 767px) {
+  html{
+    font-size:50%;
+  }
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px){
+  html{
+    font-size: 75%;
+  }
+}
+
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1025px) and (max-width: 1280px){
+  html{
+    font-size: 100%;
+  }
+}
+
+/* Media Query for Large screens */
+@media (min-width: 1281px) {
+  html{
+    font-size: 100%;
+  }
+}
+
+

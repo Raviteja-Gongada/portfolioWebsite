@@ -1,0 +1,76 @@
+.navbutton:hover{
+    background-color: hsl(20, 100%, 39%);
+    color: white;
+}
+.navbutton{
+    font-size: 1rem; 
+    border-radius: 3.13rem; 
+    border: 0.13rem solid #C74300; 
+    background-color: white;
+    color: #C74300;
+}
+#icon{
+    color:#696969; 
+    font-size: 3.13rem; 
+    text-decoration: none; 
+    border-radius:50%;
+    border-right: 0.4rem solid #2F4F4F;
+    border-left:0.4rem solid white;
+    border-top: 0.4rem solid white;
+    border-bottom: 0.4rem solid #2F4F4F;
+}
+
+
+.navbar{
+    background-color: rgb(13, 39, 64);
+  }
+  
+  
+  
+  .navbar .navbar-nav {
+  color: white;
+  font-size: 1rem;
+  transition: all 0.5s;
+  }
+  
+  .navbar .navbar-nav {
+  padding: 1rem 0.7rem;
+  }
+  .navbar .navbar-brand {
+  padding: 0 0.8rem;
+  }
+  
+  /* Media Query for Mobile Devices */ 
+   @media (max-width: 480px) {
+    html{
+      font-size: 45%;
+    }
+  }
+  
+  /* Media Query for low resolution  Tablets, Ipads */ 
+  @media (min-width: 576px) and (max-width: 767px) {
+    html{
+      font-size: 55%;
+    }
+  }
+  
+  /* Media Query for Tablets Ipads portrait mode */
+  @media (min-width: 768px) and (max-width: 1024px){
+    html{
+      font-size: 75%;
+    }
+  }
+  
+  /* Media Query for Laptops and Desktops */
+  @media (min-width: 1025px) and (max-width: 1280px){
+    html{
+      font-size: 100%;
+    }
+  }
+  
+  /* Media Query for Large screens */
+  @media (min-width: 1281px) {
+    html{
+      font-size: 100%;
+    }
+  }
